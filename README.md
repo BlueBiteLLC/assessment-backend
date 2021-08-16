@@ -2,7 +2,7 @@
 
 ## System Set Up
 
-Your needs to be able to:
+Your system needs to be able to:
  - Run `docker-compose` (you will need an up to date version of `docker` installed)
  - Run a `bash` script
 
