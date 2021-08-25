@@ -33,11 +33,13 @@ Each object record will be part of an array and will look something like this
 }
 ```
 
+Example payloads can be found in [files directory][./files]
+
 ## Requirements
 
 ### Part 1
 
-* The application should accept JSON payloads via route
+* The application should accept JSON payloads via a route
     * When the application receives a new payload it must be validated, parsed and (if the data is correct) stored in the database
     * The application must be able to handle validation errors. The format of the errors is your choice so long as it is consistent and adheres to HTTP protocol standards.
 
