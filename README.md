@@ -40,7 +40,7 @@ Example payloads can be found in [files directory][./files]
 ### Part 1
 
 * The application should accept JSON payloads via a route
-    * When the application receives a new payload it must be validated, parsed and (if the data is correct) stored in the database
+    * When the application receives a new payload it must be validated (reference schema), parsed and (if the data is correct) stored in the database
     * The application must be able to handle validation errors. The format of the errors is your choice so long as it is consistent and adheres to HTTP protocol standards.
 
 ### Part 2
