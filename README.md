@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Imagine a system which needs to serve payloads for millions of different smart objects. Each object can hold multiple data parameters describing the object it's attached to. The set of parameters is not consistent across all tags because each tag can be attached to a different item (e.g. a shoe, a soccer ball, or a bag). Imagine we have multiple batch operations which are sending us JSON payloads containing existing objects or new objects that need to be created.
+Imagine a system which needs to serve payloads for millions of different smart objects. Each object can hold multiple data parameters describing the object it's attached to. The set of parameters is not consistent across all objects because each object can be attached to a different item (e.g. a shoe, a soccer ball, or a bag). Imagine we have multiple batch operations which are sending us JSON payloads containing existing objects or new objects that need to be created.
 
 ## Data Constrains
 
